@@ -51,3 +51,6 @@ cat /sys/class/thermal/thermal_zone0/temp
 |   GPIO 24     | 18    :-----> Tachometer (BCM 24) of fan
 |   GPIO 19   35|       :-----< PWM (BCM 19) of fan, for Fan drive speed
 |::::::::::::::::::::::::
+
+<img width="554" height="267" alt="image" src="https://github.com/user-attachments/assets/3f8d3db0-deb8-4d52-ae32-f13bbb2a2f88" />
+

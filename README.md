@@ -40,14 +40,14 @@ cat /sys/class/thermal/thermal_zone0/temp
 
 #Board layout 
              Fan pin
-|......................|
-|                      |      
-|  Raspi chip 1 | 2 +5v|
-|  |''''|     3 | 4 +5v|----->  +5V
-|  |....|     5 | 6 GND|----- GND
-|             7 | 8    |
-|             9 | 10   |
+|.......................:
+|                       :     
+|  Raspi chip 1 | 2 +5v :
+|  |''''|     3 | 4 +5v :----->  +5V
+|  |....|     5 | 6 GND :----- GND
+|             7 | 8     :
+|             9 | 10    :
 
-|   GPIO 24     | 18   |-----> Tachometer (BCM 24) of fan
-|   GPIO 19   35|      |-----< PWM (BCM 19) of fan, for Fan drive speed
-|......................|
+|   GPIO 24     | 18    :-----> Tachometer (BCM 24) of fan
+|   GPIO 19   35|       :-----< PWM (BCM 19) of fan, for Fan drive speed
+|.......................:

@@ -56,6 +56,7 @@ Fan pin
 |              35 |       |<----- PWM (BCM 19) of fan, for Fan drive speed
 |.........................|
 
+
 ```
  +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
  | BCM | wPi |   Name  | Mode | V | PHYSICAL | V | Mode | Name    | wPi | BCM |

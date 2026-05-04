@@ -39,8 +39,6 @@ nano /usr/local/bin/fan_control.py
 cat /sys/class/thermal/thermal_zone0/temp 
 
 #Board layout 
-gpio readall
-
 ```
 Fan pin
 |.........................|                        
@@ -56,7 +54,8 @@ Fan pin
 |              35 |       |<----- PWM (BCM 19) of fan, for Fan drive speed
 |.........................|
 
-
+```
+#gpio readall
 ```
  +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
  | BCM | wPi |   Name  | Mode | V | PHYSICAL | V | Mode | Name    | wPi | BCM |
@@ -84,6 +83,6 @@ Fan pin
  +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
  | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
  +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
-
+```
 
 

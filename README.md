@@ -84,5 +84,6 @@ Fan pin
  | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
  +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
 ```
+<img width="941" height="540" alt="image" src="https://github.com/user-attachments/assets/b19dcc25-534f-440b-80e0-67409003603c" />
 
 

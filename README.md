@@ -48,10 +48,10 @@ Fan pin
 |                 |       |
 |                 |       |
 |                 |       |
-|                 | 18    |-----> Pin 18 Tachometer (BCM 24) of fan
-|                 |       |  
-|                 |       |
-|              35 |       |<----- PWM (BCM 19) of fan, for Fan drive speed
+|                 | 33    |-----> Tachometer - fan speed (BCM 13)
+|                 | 35    |<----- PWM for Fan drive speed (BCM 19)
+|                 | 37    |
+|                 | 39    |
 |.........................|
 
 ```
